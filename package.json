@@ -1,0 +1,23 @@
+{
+  "name": "twitter_unfollower",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Abubaker Younis",
+    "email": "bscs-fa20-048@tuf.edu.pk"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-activity": "^2.1.3",
+    "react-dom": "18.2.0"
+  }
+}

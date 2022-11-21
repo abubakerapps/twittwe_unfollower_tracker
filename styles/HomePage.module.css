@@ -1,0 +1,113 @@
+.container {
+  padding: 0rem;
+  margin: 0rem;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 31%,
+    rgba(0, 172, 238, 1) 50%,
+    rgba(13, 12, 12, 1) 69%
+  );
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(13, 12, 12, 1) 35%
+  );
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 12%;
+}
+.navBarItem {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.navBarItem:hover {
+  color: #c5c6c7;
+}
+
+.h1 {
+  color: white;
+  font-weight: bold;
+}
+.homeComponent {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 85vh;
+  box-sizing: border-box;
+  align-self: center;
+}
+.input {
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #c5c6c7;
+  color: white;
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: black;
+}
+
+.textHolder {
+  width: 90%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: black;
+  width: 35%;
+  height: 55%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+}
+.topContainer {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #00acee;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+.h2:hover {
+  color: #00acee;
+  background-color: white;
+  text-align: center;
+}
